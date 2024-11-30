@@ -5,3 +5,27 @@ Multi-scale feature extraction
 Attention mechanisms
 Label smoothing
 Auxiliary tasks/losses
+
+"""
+TODO List - Future Improvements:
+1. Model Architecture:
+   - Add residual connections to GRU
+   - Multi-head attention layer after GRU
+   - Add auxiliary classification task (e.g., scene change detection)
+   - Try different backbones (EfficientNet, ConvNext)
+   - Add frame difference features
+
+2. Training:
+   - Implement mixed precision training
+   - Curriculum learning (start with easy examples)
+   - Cross-validation 
+   - Learning rate finder
+   - Test time augmentation
+   - Model ensemble
+
+3. Data:
+   - More aggressive augmentation
+   - Frame difference/optical flow
+   - Scene transition detection
+   - Additional metadata features
+"""
