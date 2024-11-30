@@ -1,0 +1,7 @@
+Future improvements to consider for model definition:
+
+Add residual connections
+Multi-scale feature extraction
+Attention mechanisms
+Label smoothing
+Auxiliary tasks/losses
